@@ -16,7 +16,8 @@ THE ARCHITECTURE OF NETWORK- The network consists of a sequence of three dense l
 
 ![20190510_211434](https://user-images.githubusercontent.com/43670329/57540888-65e96400-736b-11e9-8fff-b27c1425c367.jpg)
  
-
+SUMMARY OF THE NETWORK
+![20190510_211449 (1)](https://user-images.githubusercontent.com/43670329/57541755-608d1900-736d-11e9-8bf5-2dcb72bfdecb.jpg)
 
 
 
@@ -40,6 +41,7 @@ II) CONVOLUTION NEURAL NETWORK-2 (CONVOLUTION NETWORK)
 PREPARING THE IMAGE DATA AND LABELS FOR NETWORK-
 
 The shape of the training images and testing images was changed, they were reshaped reshape into 4D array of (60000, 28, 28, 1) and (10000, 28, 28, 1) respectively for training images and testing images. And then normalized these images into [0, 1] of data type float32.Reshaping block diagram of 3d mnist data into 4d numpy array is following.
+![20190510_211505](https://user-images.githubusercontent.com/43670329/57541756-608d1900-736d-11e9-9fc6-53ee3fe98e9a.jpg)
 
 
 ![20190510_211505](https://user-images.githubusercontent.com/43670329/57541756-608d1900-736d-11e9-9fc6-53ee3fe98e9a.jpg)
@@ -62,9 +64,11 @@ THE ARCHITECTURE OF NETWORK- The networks model of convolution network has three
 
 ![20190510_211517 (1)](https://user-images.githubusercontent.com/43670329/57541744-5ec35580-736d-11e9-9257-d630cc65f10e.jpg)
 
-                                         SUMMARY OF NETWORK 
+                                        
 
+SUMMARY OF THE NETWORK
 
+![20190510_211528](https://user-images.githubusercontent.com/43670329/57541750-5f5bec00-736d-11e9-894b-c262f366fddf.jpg)
 
 
 
@@ -97,6 +101,8 @@ PLOT THE INPUT TEST IMAGE AND CLASSNAME-
 
 The test image was reshaped back to its original pixel size i.e. (28,28). And then image and class name as title was shown by show function of matplotlib.
 The code for plotting is in appendix-2 and the output is following.Input image graph with title as classification
+
+![20190510_211557 (2)](https://user-images.githubusercontent.com/43670329/57541746-5f5bec00-736d-11e9-87ee-bcbbb3454cd5.jpg)
 
           
 
