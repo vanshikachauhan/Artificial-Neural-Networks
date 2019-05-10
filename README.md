@@ -3,8 +3,7 @@ This project presents the image classification of hand-written digits from 0 to 
 
 I) ANN IMPLEMENTATION FOR HANDWRITTEN DIGIT CLASSIFICATION-(NETWORK-1)
 
-PREPARING THE IMAGE DATA AND LABELS FOR NETWORK- Before training, the data was pre-processed by reshaping it into the shape the network expects and scaled it so that all values are in the [0, 1] interval. After that the labels were vectorized so that the output can be mapped and classified with required class of output. This is done by categorically encode the labels.
-Reshapeing block diagram of training and testing images is following-
+-
 
 
 THE ARCHITECTURE OF NETWORK- The network consists of a sequence of three dense layers, which are densely connected, also called fully connected neural layers.
