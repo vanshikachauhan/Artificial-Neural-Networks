@@ -16,16 +16,13 @@ THE ARCHITECTURE OF NETWORK- The network consists of a sequence of three dense l
 
 ![20190510_211434](https://user-images.githubusercontent.com/43670329/57540888-65e96400-736b-11e9-8fff-b27c1425c367.jpg)
  
-     
 
- 
-SUMMARY OF MODEL
 
-![20190510_211449 (1)](https://user-images.githubusercontent.com/43670329/57541011-b234a400-736b-11e9-80ee-98b68162e6c2.jpg)
+
 
 
 NETWORK COMPILATION AND TRAINING- 
-We compiled our network by using loss function as categorical_crossentropy, optimizer as rmsprop and metrics as categorical_accuracy and is trained by using with number of epochs as 4, batch size128.
+ network is compiled by using loss function as categorical_crossentropy, optimizer as sgd and metrics as categorical_accuracy and is trained by using with number of epochs as 5, batch size128.
 
 TRAINING AND TESTING ACCURACY-
 
@@ -42,16 +39,10 @@ II) CONVOLUTION NEURAL NETWORK-2 (CONVOLUTION NETWORK)
 
 PREPARING THE IMAGE DATA AND LABELS FOR NETWORK-
 
-The shape of the training images and testing images was changed, they were reshaped reshape into 4D array of (60000, 28, 28, 1) and (10000, 28, 28, 1) respectively for training images and testing images. And then normalized these images into [0, 1] of data type float32.
+The shape of the training images and testing images was changed, they were reshaped reshape into 4D array of (60000, 28, 28, 1) and (10000, 28, 28, 1) respectively for training images and testing images. And then normalized these images into [0, 1] of data type float32.Reshaping block diagram of 3d mnist data into 4d numpy array is following.
+
 
 ![20190510_211505](https://user-images.githubusercontent.com/43670329/57541756-608d1900-736d-11e9-9fc6-53ee3fe98e9a.jpg)
-
- 
-
-
-                            Fig53-Reshaping of 3d mnist data into 4d numpy array.
-
-
 
 THE ARCHITECTURE OF NETWORK- The networks model of convolution network has three convolution layers, two maxpooling layers, one flatten layer and two dense layers.
 
@@ -69,12 +60,14 @@ THE ARCHITECTURE OF NETWORK- The networks model of convolution network has three
 
 7.	Last layer was a 10-way softmax layer, which means it had return an array of 10 probability scores (summing to 1). Each score was the probability that the current digit image belongs to one of the10 digit classes.Block diagram of network -2 architecture is following-
 
-![20190510_211517 (1)](https://user-images.githubusercontent.com/43670329/57541744-5ec35580-736d-11e9-9257-d630cc65f10e.jpg)   
+                                         SUMMARY OF NETWORK 
 
-                                                  
- SUMMARY OF NETWORK
- ![20190510_211528](https://user-images.githubusercontent.com/43670329/57541750-5f5bec00-736d-11e9-894b-c262f366fddf.jpg)
 
+
+
+
+
+                                             
 NETWORK COMPILATION AND TRAINING- 
 We compiled our network by using loss function as categorical_crossentropy, optimizer as rmsprop and metrics as categorical_accuracy and is trained by using with number of epochs as 5, batch size128.
 
@@ -95,24 +88,18 @@ A MS paint hand written digit has been generated of pixel size (28, 28) for the 
                                                                        
 In this network convolution layers are used so we have reshaped this image as 4D vector (1,28,28,1).
 
-The classification was predicted for the input test image by passing test image as an argument in predict_classes function. And the class name was printed.
+The classification was predicted for the input test image by passing test image as an argument in predict_classes function. And the class name was printed.The class predicts the input test image as 2.
 
- 
-The class predicts the input test image as 2.
-)
-![20190510_211741](https://user-images.githubusercontent.com/43670329/57541751-5ff48280-736d-11e9-8bf0-6b34b92f41c8.jpg)
-![20190510_211741](https://user-images.githubusercontent.com/43670329/57541751-5ff48280-736d-11e9-8bf0-6b34b92f41c8.jpg)
 
 PLOT THE INPUT TEST IMAGE AND CLASSNAME-
 
 The test image was reshaped back to its original pixel size i.e. (28,28). And then image and class name as title was shown by show function of matplotlib.
 The code for plotting is in appendix-2 and the output is following.Input image graph with title as classification
 
-          ![20190510_211557 (2)](https://user-images.githubusercontent.com/43670329/57541746-5f5bec00-736d-11e9-87ee-bcbbb3454cd5.jpg 
-                        
+          
 
 The title shows that the predicted class is 2. 
-
+                  
 VISUALIZING THE VARIOUS LAYERS OF NETWORK-2-
 
 Al the activation maps were visualized by launching server of quiver engine.And the output is following:
