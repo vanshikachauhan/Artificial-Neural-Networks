@@ -60,6 +60,8 @@ THE ARCHITECTURE OF NETWORK- The networks model of convolution network has three
 
 7.	Last layer was a 10-way softmax layer, which means it had return an array of 10 probability scores (summing to 1). Each score was the probability that the current digit image belongs to one of the10 digit classes.Block diagram of network -2 architecture is following-
 
+![20190510_211517 (1)](https://user-images.githubusercontent.com/43670329/57541744-5ec35580-736d-11e9-9257-d630cc65f10e.jpg)
+
                                          SUMMARY OF NETWORK 
 
 
@@ -107,6 +109,15 @@ Al the activation maps were visualized by launching server of quiver engine.And 
 ![20190510_211618](https://user-images.githubusercontent.com/43670329/57541745-5f5bec00-736d-11e9-9c4e-a98ed3b84d22.jpg)
 
 
+
+
+![20190510_211618](https://user-images.githubusercontent.com/43670329/57541745-5f5bec00-736d-11e9-9c4e-a98ed3b84d22.jpg)
+![20190510_211557 (2)](https://user-images.githubusercontent.com/43670329/57541746-5f5bec00-736d-11e9-87ee-bcbbb3454cd5.jpg)
+![20190510_211528](https://user-images.githubusercontent.com/43670329/57541750-5f5bec00-736d-11e9-894b-c262f366fddf.jpg)
+![20190510_211741](https://user-images.githubusercontent.com/43670329/57541751-5ff48280-736d-11e9-8bf0-6b34b92f41c8.jpg)
+![20190510_211449 (1)](https://user-images.githubusercontent.com/43670329/57541755-608d1900-736d-11e9-8bf5-2dcb72bfdecb.jpg)
+![20190510_211505](https://user-images.githubusercontent.com/43670329/57541756-608d1900-736d-11e9-9fc6-53ee3fe98e9a.jpg)
+![20190510_211557](https://user-images.githubusercontent.com/43670329/57541757-6125af80-736d-11e9-9c98-6d2833e2378a.jpg)
 
 
 
