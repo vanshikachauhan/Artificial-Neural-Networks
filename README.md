@@ -52,10 +52,9 @@ THE ARCHITECTURE OF NETWORK-2- The networks model of convolution network has thr
 ![20190510_211517 (1)](https://user-images.githubusercontent.com/43670329/57541744-5ec35580-736d-11e9-9257-d630cc65f10e.jpg)
 
                                         
-
 SUMMARY OF THE NETWORK
+![20190510_211528](https://user-images.githubusercontent.com/43670329/57547004-56721700-737b-11e9-8ccb-93c3b350f9f2.jpg)
 
-![20190510_211528](https://user-images.githubusercontent.com/43670329/57541750-5f5bec00-736d-11e9-894b-c262f366fddf.jpg
 
 
 
