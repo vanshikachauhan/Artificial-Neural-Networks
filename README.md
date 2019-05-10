@@ -41,10 +41,10 @@ II) CONVOLUTION NEURAL NETWORK-2 (CONVOLUTION NETWORK)
 PREPARING THE IMAGE DATA AND LABELS FOR NETWORK-
 
 The shape of the training images and testing images was changed, they were reshaped reshape into 4D array of (60000, 28, 28, 1) and (10000, 28, 28, 1) respectively for training images and testing images. And then normalized these images into [0, 1] of data type float32.Reshaping block diagram of 3d mnist data into 4d numpy array is following.
+
 ![20190510_211505](https://user-images.githubusercontent.com/43670329/57541756-608d1900-736d-11e9-9fc6-53ee3fe98e9a.jpg)
 
 
-![20190510_211505](https://user-images.githubusercontent.com/43670329/57541756-608d1900-736d-11e9-9fc6-53ee3fe98e9a.jpg)
 
 THE ARCHITECTURE OF NETWORK- The networks model of convolution network has three convolution layers, two maxpooling layers, one flatten layer and two dense layers.
 
@@ -96,6 +96,8 @@ In this network convolution layers are used so we have reshaped this image as 4D
 
 The classification was predicted for the input test image by passing test image as an argument in predict_classes function. And the class name was printed.The class predicts the input test image as 2.
 
+![20190510_211741](https://user-images.githubusercontent.com/43670329/57541751-5ff48280-736d-11e9-8bf0-6b34b92f41c8.jpg)
+
 
 PLOT THE INPUT TEST IMAGE AND CLASSNAME-
 
@@ -114,16 +116,6 @@ Al the activation maps were visualized by launching server of quiver engine.And 
 
 ![20190510_211618](https://user-images.githubusercontent.com/43670329/57541745-5f5bec00-736d-11e9-9c4e-a98ed3b84d22.jpg)
 
-
-
-
-![20190510_211618](https://user-images.githubusercontent.com/43670329/57541745-5f5bec00-736d-11e9-9c4e-a98ed3b84d22.jpg)
-![20190510_211557 (2)](https://user-images.githubusercontent.com/43670329/57541746-5f5bec00-736d-11e9-87ee-bcbbb3454cd5.jpg)
-![20190510_211528](https://user-images.githubusercontent.com/43670329/57541750-5f5bec00-736d-11e9-894b-c262f366fddf.jpg)
-![20190510_211741](https://user-images.githubusercontent.com/43670329/57541751-5ff48280-736d-11e9-8bf0-6b34b92f41c8.jpg)
-![20190510_211449 (1)](https://user-images.githubusercontent.com/43670329/57541755-608d1900-736d-11e9-8bf5-2dcb72bfdecb.jpg)
-![20190510_211505](https://user-images.githubusercontent.com/43670329/57541756-608d1900-736d-11e9-9fc6-53ee3fe98e9a.jpg)
-![20190510_211557](https://user-images.githubusercontent.com/43670329/57541757-6125af80-736d-11e9-9c98-6d2833e2378a.jpg)
 
 
 
