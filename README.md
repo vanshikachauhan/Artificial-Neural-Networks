@@ -16,12 +16,10 @@ THE ARCHITECTURE OF NETWORK- The network consists of a sequence of three dense l
 
 ![20190510_211434](https://user-images.githubusercontent.com/43670329/57540888-65e96400-736b-11e9-8fff-b27c1425c367.jpg)
  
-SUMMARY OF THE NETWORK-1
-![20190510_211449 (1)](https://user-images.githubusercontent.com/43670329/57541755-608d1900-736d-11e9-8bf5-2dcb72bfdecb.jpg)
-
+ 
 OUTPUT OF NETWORK-1
 
- ![Screenshot_20190510-230019_Docs](https://user-images.githubusercontent.com/43670329/57545728-e367a100-7378-11e9-8fa4-e84b4f895301.jpg)
+![Screenshot_20190510-230019_Docs](https://user-images.githubusercontent.com/43670329/57545728-e367a100-7378-11e9-8fa4-e84b4f895301.jpg)
 
 II) CONVOLUTION NEURAL NETWORK-2 (CONVOLUTION NETWORK)
 
@@ -52,8 +50,7 @@ THE ARCHITECTURE OF NETWORK-2- The networks model of convolution network has thr
 ![20190510_211517 (1)](https://user-images.githubusercontent.com/43670329/57541744-5ec35580-736d-11e9-9257-d630cc65f10e.jpg)
 
                                         
-SUMMARY OF THE NETWORK
-![20190510_211528](https://user-images.githubusercontent.com/43670329/57547004-56721700-737b-11e9-8ccb-93c3b350f9f2.jpg)
+
 
 
 
