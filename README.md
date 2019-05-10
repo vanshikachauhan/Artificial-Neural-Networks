@@ -61,7 +61,7 @@ A MS paint hand written digit has been generated of pixel size (28, 28) for the 
                                                                        
 In this network convolution layers are used so we have reshaped this image as 4D vector (1,28,28,1).
 
-The classification was predicted for the input test image by passing test image as an argument in predict_classes function. And the class name was printed.The class predicts the input test image as 2.
+The classification was predicted for the input test image by passing test image as an argument in predict_classes function. And the class name was printed.The class predicts the input test image as 1.
 
 
 
@@ -78,11 +78,7 @@ The title shows that the predicted class is 1.
 OUTPUT OF NETWORK-2-
 ![20190510_230042](https://user-images.githubusercontent.com/43670329/57545731-e4003780-7378-11e9-957b-35869e95b3aa.jpg)
                   
-VISUALIZING THE VARIOUS LAYERS OF NETWORK-2-
 
-Al the activation maps were visualized by launching server of quiver engine.And the output is following:
-
-![20190510_211618](https://user-images.githubusercontent.com/43670329/57541745-5f5bec00-736d-11e9-9c4e-a98ed3b84d22.jpg)
 
 
 
