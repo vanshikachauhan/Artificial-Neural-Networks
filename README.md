@@ -2,10 +2,6 @@
 This project presents the image classification of hand-written digits from 0 to 9 and also the comparative analysis of traditional neural networks and convolutional neural networks (CNNs). The system is trained using MNIST dataset which consist of 60,000 training images and 10,000 test images of size (28 x 28 pixels) for each class of 0-9 digit. The system should be trained in such a way that it is able to recognise the hand-written gray-scale input digits.
 
 I) ANN IMPLEMENTATION FOR HANDWRITTEN DIGIT CLASSIFICATION-(NETWORK-1)
-
--
-
-
 THE ARCHITECTURE OF NETWORK- The network consists of a sequence of three dense layers, which are densely connected, also called fully connected neural layers.
 •	In the first layer various arguments which were passed were the number of neurons in the layer as 30, activation function as relu and the input shape as a column vector (28*28,1).
 
