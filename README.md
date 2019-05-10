@@ -63,7 +63,7 @@ In this network convolution layers are used so we have reshaped this image as 4D
 
 The classification was predicted for the input test image by passing test image as an argument in predict_classes function. And the class name was printed.The class predicts the input test image as 2.
 
-![20190510_211741](https://user-images.githubusercontent.com/43670329/57541751-5ff48280-736d-11e9-8bf0-6b34b92f41c8.jpg)
+
 
 
 PLOT THE INPUT TEST IMAGE AND CLASSNAME-
@@ -73,11 +73,10 @@ The code for plotting is in appendix-2 and the output is following.Input image g
 
 ![20190510_230105](https://user-images.githubusercontent.com/43670329/57545729-e367a100-7378-11e9-9511-3d6bd0d6ffc0.jpg)
 
-          
- The title shows that the predicted class is 1. 
+The title shows that the predicted class is 1. 
  
- OUTPUT OF NETWORK-2-
- ![20190510_230042](https://user-images.githubusercontent.com/43670329/57545731-e4003780-7378-11e9-957b-35869e95b3aa.jpg)
+OUTPUT OF NETWORK-2-
+![20190510_230042](https://user-images.githubusercontent.com/43670329/57545731-e4003780-7378-11e9-957b-35869e95b3aa.jpg)
                   
 VISUALIZING THE VARIOUS LAYERS OF NETWORK-2-
 
