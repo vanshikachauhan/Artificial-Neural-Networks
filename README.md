@@ -12,7 +12,7 @@ THE ARCHITECTURE OF NETWORK- The network consists of a sequence of three dense l
 ![20190510_211434](https://user-images.githubusercontent.com/43670329/57540888-65e96400-736b-11e9-8fff-b27c1425c367.jpg)
  
  
-OUTPUT OF NETWORK-1
+OUTPUT OF NETWORK-1-
 
 ![Screenshot_20190510-230019_Docs](https://user-images.githubusercontent.com/43670329/57545728-e367a100-7378-11e9-8fa4-e84b4f895301.jpg)
 
@@ -40,7 +40,7 @@ THE ARCHITECTURE OF NETWORK-2- The networks model of convolution network has thr
 
 6.	Then dense layer with 64 neurons was added with activation relu.
 
-7.	Last layer was a 10-way softmax layer, which means it had return an array of 10 probability scores (summing to 1). Each score was the probability that the current digit image belongs to one of the10 digit classes.Block diagram of network -2 architecture is following-
+7.	Last layer was a 10-way softmax layer, which means it had return an array of 10 probability scores (summing to 1). Each score was the probability that the current digit image belongs to one of the10 digit classes.Block diagram of network -2 architecture is following.
 
 ![20190510_211517 (1)](https://user-images.githubusercontent.com/43670329/57541744-5ec35580-736d-11e9-9257-d630cc65f10e.jpg)
 
@@ -68,7 +68,7 @@ The code for plotting is in appendix-2 and the output is following.Input image g
 
 ![20190510_230105](https://user-images.githubusercontent.com/43670329/57545729-e367a100-7378-11e9-9511-3d6bd0d6ffc0.jpg)
 
-The title shows that the predicted class is 1. 
+The title shows that the predicted class is 1.
  
 OUTPUT OF NETWORK-2-
 ![20190510_230042](https://user-images.githubusercontent.com/43670329/57545731-e4003780-7378-11e9-957b-35869e95b3aa.jpg)
